@@ -1,6 +1,6 @@
 spring:
   kafka:
-    bootstrap-servers: 140.143.232.202
+    bootstrap-servers: 140.143.232.202:9200
     consumer:
       group-id: test-1
   rabbitmq:
