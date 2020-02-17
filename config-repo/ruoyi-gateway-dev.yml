@@ -1,4 +1,8 @@
 spring:
+  kafka:
+    bootstrap-servers: 106.14.242.226
+    consumer:
+      group-id: test-1
   rabbitmq:
     host: 140.143.232.202
     port: 5672
